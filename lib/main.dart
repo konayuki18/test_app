@@ -7,6 +7,7 @@ void main() {
   int c = 3;
   if(c>a){
     a=a+c;
+    print("a is change");
   }
   if(a>b){
     print(a);
