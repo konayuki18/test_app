@@ -4,6 +4,10 @@ void main() {
   runApp(const MyApp());
   int a = 1;
   int b = 2;
+  int c = 3;
+  if(c>a){
+    a=a+c;
+  }
   if(a>b){
     print(a);
   }
