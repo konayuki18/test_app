@@ -2,7 +2,19 @@ import 'package:flutter/material.dart';
 
 void main() {
   runApp(const MyApp());
+  int a = 1;
+  int b = 2;
+  if(a>b){
+    print(a);
+  }
+  else if(a==b){
+    print("equal");
+  }
+  else{
+    print(b);
+  }
 }
+
 
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
